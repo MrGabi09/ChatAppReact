@@ -21,7 +21,7 @@ export function ChatApp() {
           width: 300,
         }}
         padding="md">
-        <AppShell.Header>
+        <AppShell.Header className='bg-red'>
           <ChatControls />
         </AppShell.Header>
 
