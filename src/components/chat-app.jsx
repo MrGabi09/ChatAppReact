@@ -18,7 +18,7 @@ export function ChatApp() {
       <AppShell
         header={{ height: 60 }}
         navbar={{
-          width: 300,
+          width: 300,      
         }}
         padding="md">
         <AppShell.Header className='bg-red'>
