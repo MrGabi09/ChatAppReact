@@ -16,7 +16,7 @@ export function ChatApp() {
   return (
     <MantineProvider theme={theme}>
       <AppShell
-        header={{ height: 60 }}
+        header={{ height: 100 }}
         navbar={{
           width: 300,      
         }}
@@ -41,9 +41,9 @@ export function ChatApp() {
           </Modal>
 
           <Textarea
-            label="Input label"
-            description="Input description"
-            placeholder="Input placeholder"
+            label="Text input"
+            description="Insert a text"
+            placeholder="Type a message"
           />
         </AppShell.Main>
       </AppShell>

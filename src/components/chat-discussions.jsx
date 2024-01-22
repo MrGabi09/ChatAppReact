@@ -1,17 +1,18 @@
 import { Box } from "@mantine/core";
 
 export function ChatDiscussions() {
-  const positionStyle={
-    marginTop: '30px',
+  const positionStyle = {
     padding: '20px',
-  }
-  return <div style={positionStyle}>
-    <Box bg="purple"  >Lista contacte</Box>
-    <h1>Primul contact</h1>
-    <h1>Primul contact</h1>
-    
+  };
 
-    
-  </div>
-  
+
+  return (
+    <div style={positionStyle}>
+      <Box bg="grey" radius="lg" style={{padding:"1rem",borderRadius:"10px", fontWeight: "bold", fontSize:"25px", textAlign:"center"}}>Contacts</Box>
+      <h1>contact</h1>
+      <h1>contact</h1>
+      <h1>contact</h1>
+
+    </div>
+  );
 }
